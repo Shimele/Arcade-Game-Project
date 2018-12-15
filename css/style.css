@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.modal_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.438)
+}
+
+.modal_body {
+    position: relative;
+    width: 400px;
+    /*height:400px;*/
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    transform: translate(-50%, -70%);
+    /*to center the modal body*/
+}
+
+.modal_heading {
+    display: flex;
+    /*wrap the title and close on the same line*/
+    justify-content: space-between;
+    /*flexbox: give the elements some space*/
+    align-items: center;
+    /*aligning them*/
+    padding: 0 1.5rem;
+}
+
+.modal_close {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.modal_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.modal_button {
+    width: 60px;
+    height: 30px;
+}
+
+.hide {
+    display: none;
+}
